@@ -5,6 +5,12 @@ Kelas: TI.24.A.5 <P>
 Jurusan: Teknik Informatika <p>
 Mata Kuliah: Pemograman Web 1 <p>
 
+### Tahap 1: Membuat Ordered List
+Halaman ini adalah contoh dasar dari materi pembelajaran HTML Lanjutan yang berfokus pada struktur dan penamaan daftar berurutan.
+<img width="1918" height="1017" alt="Membuat Ordered List" src="https://github.com/user-attachments/assets/5c0eb2c1-2731-44d2-9edf-e5276126cbb1" />
+
+
+
 ### Kode Pemrograman
 ```html
 
@@ -233,10 +239,5 @@ Mata Kuliah: Pemograman Web 1 <p>
 
 </body>
 </html>
-
-
-### Tahap 1: Membuat Ordered List
-Halaman ini adalah contoh dasar dari materi pembelajaran HTML Lanjutan yang berfokus pada struktur dan penamaan daftar berurutan.
-<img width="1918" height="1017" alt="Membuat Ordered List" src="https://github.com/user-attachments/assets/5c0eb2c1-2731-44d2-9edf-e5276126cbb1" />
 
 
