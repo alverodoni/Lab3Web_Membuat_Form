@@ -13,7 +13,6 @@ file:///C:/xampp/htdocs/Lab3Web/Labweb3.html
 Halaman ini adalah contoh dasar dari materi pembelajaran HTML Lanjutan yang berfokus pada struktur dan penamaan daftar berurutan.
 <img width="1918" height="1017" alt="Membuat Ordered List" src="https://github.com/user-attachments/assets/5c0eb2c1-2731-44d2-9edf-e5276126cbb1" />
 ***code:**
-
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -44,31 +43,197 @@ Halaman ini adalah contoh dasar dari materi pembelajaran HTML Lanjutan yang berf
 ***Deskripsi:**
 Halaman ini menyajikan contoh visual yang membandingkan dua elemen daftar dasar dalam HTML (`<ol>`) yang memberikan penomoran (berurutan) dan (`<ul>`) yang menggunakan simbol bullet (tidak berurutan). Kontennya menunjukkan contoh mata kuliah &  Mempelajari cara menggunakan CSS untuk meningkatkan estetika dan kegunaan formulir HTML. Fokus utamanya adalah bagaimana styling sederhana (seperti warna hijau pada border dan tombol) dapat membuat antarmuka pengguna (UI) menjadi lebih profesional dan menarik dibandingkan tampilan default browser.
 <img width="1912" height="1010" alt="Membuat Unorderd List" src="https://github.com/user-attachments/assets/cade8ec8-f724-4174-b712-819fdca83ed6" /> 
+***code:**
+```html
+<section id="unorder-list">
+<h2>Unordered List</h2>
+<ul type="square">
+<li>Jaringan Komputer</li>
+<li>Struktur Data</li>
+<li>Algoritma &amp; Pemrograman</li>
+</ul>
+</section>
+```
 
 ### Tahap 3: Membuat Description List
 ***Deskripsi:**
 Gambar ini menunjukkan cara membuat struktur data kompleks menggunakan elemen daftar HTML. Secara khusus, Description List (`<dl>, <dt>`), (`<dd>`) digunakan untuk memetakan istilah (`<dt>, misalnya: Fakultas Teknik`) dengan definisi atau sub-item terkait (`<dd>, misalnya: Teknik Industri`), menjadikannya ideal untuk menu, glosarium, atau struktur kategori-subkategori.
 <img width="1918" height="1015" alt="Membuat Description List" src="https://github.com/user-attachments/assets/7f02c9d7-de18-4224-8c3f-ecf3b3f7fe28" />
+***code:**
+```html
+<section id="unorder-list">
+<h2>Description List</h2>
+<dl>
+<dt>Fakultas Teknik</dt>
+<dd>Teknik Industri</dd>
+<dd>Teknik Informatika</dd>
+<dd>Teknik Lingkungan</dd>
+<dt>Fakultas Ekonomi dan Bisnis</dt>
+<dd>Akuntansi</dd>
+<dd>Manajemen</dd>
+<dd>Bisnis Digital</dd>
+</dl>
+</section>
+```
 
 ### Tahap 4: Membuat Tabel Mengatur Margin dan Padding
 ***Deskripsi:**
 Tujuan dari materi ini adalah untuk mengajarkan bagaimana CSS dapat digunakan untuk mentransformasi formulir HTML yang fungsional menjadi elemen antarmuka pengguna (UI) yang estetis, terstruktur, dan profesional, meningkatkan interaksi pengguna secara keseluruhan & Materi ini mengajarkan cara menggunakan elemen HTML (`<table>, <tr>, <th>, <td>`) untuk membuat struktur data yang rapi dan mudah dibaca. Tabel sangat penting untuk menyajikan data yang memiliki hubungan kategorikal, seperti daftar mata kuliah atau data pelanggan.
 <img width="1918" height="1012" alt="Membuat Tabel" src="https://github.com/user-attachments/assets/83328482-47b5-4391-b3e8-8f1f6ed30a4e" />
+***code:**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Lanjutan</title>
+</head>
+<body>
+<header>
+<h1>Membuat Table</h1>
+</header>
+</body>
+</html>
+<table border="1" cellpadding="4" cellspacing="0">
+<thead>
+<tr>
+<th>No.</th>
+<th>Fakultas</th>
+<th>Program Studi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.</td>
+<td>Teknik</td>
+<td>Teknik Informatika</td>
+</tr>
+<tr>
+<td>2.</td>
+<td>Teknik</td>
+<td>Teknik Industri</td>
+</tr>
+<tr>
+<td>3.</td>
+<td>Teknik</td>
+<td>Teknik Lingkungan</td>
+</tr>
+</tbody>
+</table>
+```
 
 ### Tahap 5: Menggabungkan Sel Data
 ***Deskripsi:**
 Materi ini mengajarkan integrasi antara Struktur HTML dan Desain CSS untuk menciptakan formulir yang tidak hanya berfungsi (mengumpulkan data) tetapi juga estetis dan user-friendly & Materi ini mencakup cara membuat tabel HTML dasar (`<table>, <tr>, <th>, <td>`) untuk menyajikan data terstruktur, dan dilanjutkan dengan teknik lanjutan seperti menggabungkan sel untuk mengoptimalkan presentasi data.
 <img width="1916" height="1007" alt="Menggabungkan Sel Data" src="https://github.com/user-attachments/assets/ee611698-0846-475e-af88-1464fff4ef86" />
+***code:**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Lanjutan</title>
+</head>
+<body>
+<header>
+<h1>Membuat Table</h1>
+</header>
+</body>
+</html>
+<table border="1" cellpadding="6" cellspacing="0">
+<thead>
+<tr>
+<th>No.</th>
+<th>Fakultas</th>
+<th>Program Studi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.</td>
+<td rowspan="3">Teknik</td>
+<td>Teknik Informatika</td>
+</tr>
+<tr>
+<td>2.</td>
+<td>Teknik Industri</td>
+</tr>
+<tr>
+<td>3.</td>
+<td>Teknik Lingkungan</td>
+</tr>
+</tbody>
+</table>
+```
+
 
 ### Tahap 6: Membuat Form
 ***Deskripsi:**
 Materi ini mengajarkan bahwa meskipun HTML menyediakan struktur (`<form>, <input>`), CSS adalah kunci untuk mentransformasi formulir menjadi antarmuka pengguna (UI) yang estetis & mudah digunakan
 <img width="1918" height="1010" alt="Membuat Form" src="https://github.com/user-attachments/assets/c88f7ac1-9f6b-412f-b0ad-ae2606f2a8e0" />
+***code:**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Lanjutan</title>
+</head>
+<body>
+<header>
+<h1>Membuat Form</h1>
+</header>
+</body>
+</html>
+<form action="proses.php" method="post">
+<fieldset>
+<legend>Data Pelanggan</legend>
+<p>
+<label for="nama">Nama</label>
+<input type="text" id="nama" name="nama">
+</p>
+<p>
+<label for="alamat">Alamat</label>
+<textarea id="alamat" name="alamat" cols="20" rows="3"></textarea>
+</p>
+<p>
+<label>Jenis Kelamin</label>
+<input id="jk_l" type="radio" name="kelamin" value="L" /><label
+for="jk_l">Laki-laki</label>
+<input id="jk_p" type="radio" name="kelamin" value="P" /><label
+for="jk_p">Perempuan</label>
+</p>
+<p><input type="submit" value="Login"></p>
+</fieldset>
+</form>
+```
 
 ### Tahap 7: Menambahkan Style pada Form
 ***Deskripsi:**
 Materi ini mengajarkan bahwa meskipun struktur HTML (`<form>, <input>`) menangani fungsionalitas, CSS adalah komponen krusial yang mengubah formulir menjadi Antarmuka Pengguna (UI) yang menarik, modern, dan mudah digunakan.
 <img width="1918" height="1017" alt="Menabahkan Style pada Form" src="https://github.com/user-attachments/assets/9223f02d-070b-400d-92a7-919f03ef9a31" />
+***code:**
+```html
+<style>
+form p > label {
+display: inline-block;
+width: 100px;
+}
+form input[type="text"], form textarea {
+border: 1px solid #197a43;
+}
+form input[type="submit"] {
+border: 1px solid #197a43;
+background-color: #197a43;
+color: #ffffff;
+font-weight: bold;
+padding: 5px 15px;
+}
+</style>
+```
 
 ### Tahap 8: hasilnya sebelum & sesudah
 ***Deskripsi:**
