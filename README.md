@@ -35,6 +35,7 @@ Halaman ini adalah contoh dasar dari materi pembelajaran HTML Lanjutan yang berf
 <li>Basis Data 2</li>
 </ol>
 </section>
+</body> </html> ``` </pre>
 
 
 ### Tahap 2: Membuat Unorderd List
