@@ -238,27 +238,4 @@ Mata Kuliah: Pemograman Web 1 <p>
 **Deskripsi**
 Halaman ini adalah contoh dasar dari materi pembelajaran HTML Lanjutan yang berfokus pada struktur dan penamaan daftar berurutan.
 <img width="1918" height="1017" alt="Membuat Ordered List" src="https://github.com/user-attachments/assets/5c0eb2c1-2731-44d2-9edf-e5276126cbb1" />
-**kode html**
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HTML Lanjutan</title>
-</head>
-<body>
-<header>
-<h1>Membuat List</h1>
-</header>
-</body>
-</html>
-<section id="order-list">
-<h2>Ordered List</h2>
-<ol>
-<li>Pemrograman Web</li>
-<li>Sistem Informasi</li>
-<li>Basis Data 2</li>
-</ol>
-</section>
 
