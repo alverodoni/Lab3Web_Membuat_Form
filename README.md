@@ -10,8 +10,14 @@ Halaman ini adalah contoh dasar dari materi pembelajaran HTML Lanjutan yang berf
 <img width="1918" height="1017" alt="Membuat Ordered List" src="https://github.com/user-attachments/assets/5c0eb2c1-2731-44d2-9edf-e5276126cbb1" />
 
 ### Tahap 2: Membuat Unorderd List
-Halaman ini menyajikan contoh visual yang membandingkan dua elemen daftar dasar dalam HTML (`<ol>`) yang memberikan penomoran (berurutan) dan (`<ul>`) yang menggunakan simbol bullet (tidak berurutan). Kontennya menunjukkan contoh mata kuliah.
+Halaman ini menyajikan contoh visual yang membandingkan dua elemen daftar dasar dalam HTML (`<ol>`) yang memberikan penomoran (berurutan) dan (`<ul>`) yang menggunakan simbol bullet (tidak berurutan). Kontennya menunjukkan contoh mata kuliah &  Mempelajari cara menggunakan CSS untuk meningkatkan estetika dan kegunaan formulir HTML. Fokus utamanya adalah bagaimana styling sederhana (seperti warna hijau pada border dan tombol) dapat membuat antarmuka pengguna (UI) menjadi lebih profesional dan menarik dibandingkan tampilan default browser.
 <img width="1912" height="1010" alt="Membuat Unorderd List" src="https://github.com/user-attachments/assets/cade8ec8-f724-4174-b712-819fdca83ed6" /> 
+
+### Tahap 3: Membuat Description List
+Gambar ini menunjukkan cara membuat struktur data kompleks menggunakan elemen daftar HTML. Secara khusus, Description List (`<dl>, <dt>`), (`<dd>`) digunakan untuk memetakan istilah (`<dt>, misalnya: Fakultas Teknik`) dengan definisi atau sub-item terkait (`<dd>, misalnya: Teknik Industri`), menjadikannya ideal untuk menu, glosarium, atau struktur kategori-subkategori.
+<img width="1918" height="1015" alt="Membuat Description List" src="https://github.com/user-attachments/assets/7f02c9d7-de18-4224-8c3f-ecf3b3f7fe28" />
+
+
 
 
 
