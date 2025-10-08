@@ -17,6 +17,11 @@ Halaman ini menyajikan contoh visual yang membandingkan dua elemen daftar dasar 
 Gambar ini menunjukkan cara membuat struktur data kompleks menggunakan elemen daftar HTML. Secara khusus, Description List (`<dl>, <dt>`), (`<dd>`) digunakan untuk memetakan istilah (`<dt>, misalnya: Fakultas Teknik`) dengan definisi atau sub-item terkait (`<dd>, misalnya: Teknik Industri`), menjadikannya ideal untuk menu, glosarium, atau struktur kategori-subkategori.
 <img width="1918" height="1015" alt="Membuat Description List" src="https://github.com/user-attachments/assets/7f02c9d7-de18-4224-8c3f-ecf3b3f7fe28" />
 
+### Tahap 4: Membuat Tabel
+Tujuan dari materi ini adalah untuk mengajarkan bagaimana CSS dapat digunakan untuk mentransformasi formulir HTML yang fungsional menjadi elemen antarmuka pengguna (UI) yang estetis, terstruktur, dan profesional, meningkatkan interaksi pengguna secara keseluruhan & Materi ini mengajarkan cara menggunakan elemen HTML (`<table>, <tr>, <th>, <td>`) untuk membuat struktur data yang rapi dan mudah dibaca. Tabel sangat penting untuk menyajikan data yang memiliki hubungan kategorikal, seperti daftar mata kuliah atau data pelanggan.
+<img width="1918" height="1012" alt="Membuat Tabel" src="https://github.com/user-attachments/assets/83328482-47b5-4391-b3e8-8f1f6ed30a4e" />
+
+
 
 
 
