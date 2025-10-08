@@ -10,7 +10,7 @@ Halaman ini adalah contoh dasar dari materi pembelajaran HTML Lanjutan yang berf
 <img width="1918" height="1017" alt="Membuat Ordered List" src="https://github.com/user-attachments/assets/5c0eb2c1-2731-44d2-9edf-e5276126cbb1" />
 
 ### Tahap 2: Membuat Unorderd List
-Halaman ini menyajikan contoh visual yang membandingkan dua elemen daftar dasar dalam HTML: '<ol>' yang memberikan penomoran (berurutan) dan '<ul>' yang menggunakan simbol bullet (tidak berurutan). Kontennya menunjukkan contoh mata kuliah.
+Halaman ini menyajikan contoh visual yang membandingkan dua elemen daftar dasar dalam HTML: <ol> yang memberikan penomoran (berurutan) dan <ul> yang menggunakan simbol bullet (tidak berurutan). Kontennya menunjukkan contoh mata kuliah.
 <img width="1912" height="1010" alt="Membuat Unorderd List" src="https://github.com/user-attachments/assets/cade8ec8-f724-4174-b712-819fdca83ed6" />
 
 
